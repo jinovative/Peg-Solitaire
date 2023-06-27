@@ -13,7 +13,7 @@ public interface MarbleSolitaireModelState {
 
   /**
    * Return the size of this board. The size is roughly the longest dimension of a board
-   *
+   * 0empty, marble1, invalid2
    * @return the size as an integer
    */
   int getBoardSize();
